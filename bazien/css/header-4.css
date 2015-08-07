@@ -1,0 +1,178 @@
+#header4-top-menu,
+.sidebar-navigation,
+.header-4-copyright-text,
+.header-4-socials {
+    display: none;
+}
+.header-actions,
+.header-actions ul li.mobile-canvas-menu,
+.header-actions ul li.shopping-bag-button {
+    display: inline-block !important;
+}
+@media only screen and (min-width: 80em) {
+    .header_4 .content-area,
+    .header_4 .woo_upsell_products,
+    .header_4 .woo_related_products,
+    .header_4 #site-footer {
+        padding-left: 310px !important;
+    }
+
+    .header_4 .row {
+        max-width: 100% !important;
+    }
+    .site-header {
+        padding: 0 !important;
+    }
+    .header-actions,
+    .header-actions ul li.mobile-canvas-menu,
+    .header-actions ul li.shopping-bag-button {
+        display: none !important;
+    }
+    /* Top Navigation */
+    #header4-top-menu {
+        display: block;
+        margin-bottom: 60px;
+    }
+    .site-header .main-navigation, .site-header .header-actions {
+        height: auto !important;
+    }
+    .header_4 .main-navigation ul li {
+        margin-right: 0 !important;
+    }
+    .header_4 .main-navigation ul li a {
+        font-size: 10px;
+        padding: 5px 15px;
+    }
+
+    /* Sidebar Navigation */
+    .header_4 .sidebar-navigation {
+        margin: 30px 0;
+    }
+
+    .header_4 .top-headers-wrapper {
+        background: #fafafa;
+        width: 310px !important;
+        height: 100% !important;
+        padding: 30px;
+    }
+
+    .header_4 .site-header {
+        background: transparent !important;
+    }
+
+    .header_4 .site-logo {
+        text-align: center;
+    }
+
+    .sidebar-navigation {
+        display: block;
+    }
+
+    /* Mini Cart */
+    .sidebar-navigation #mini-cart {
+        margin-top: 60px;
+        color: #202020;
+    }
+
+    .sidebar-navigation .cart-head {
+        position: relative;
+        border: #202020 solid 1px;
+        padding: 0 44px;
+    }
+
+    .sidebar-navigation #mini-cart .cart-popup {
+        right: auto;
+        left: 0;
+        z-index: 999;
+    }
+
+    .sidebar-navigation .cart-head span.title {
+        line-height: 39px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin-right: 3px;
+    }
+
+    .sidebar-navigation #mini-cart .cart-items {
+        top: -10px;
+        right: 10px;
+    }
+
+    .sidebar-navigation .widget_shopping_cart_content {
+        margin-top: 14px;
+    }
+
+    /* Search Box */
+    .search-header-4 {
+        margin-top: 30px;
+        display: inline-block;
+    }
+
+    .search-header-4 .widget {
+        margin-bottom: 0;
+    }
+
+    .search-header-4 .search-field,
+    .search-header-4 .search-field:hover,
+    .search-header-4 .search-field:focus {
+        background: #e9e9e9;
+        border: none !important;
+        float: left;
+        width: 249px;
+        color: #202020 !important;
+        font-size: 10px;
+        letter-spacing: 2.5px;
+        line-height: 43px;
+        padding: 0 15px;
+        text-transform: uppercase;
+        box-shadow: none;
+    }
+
+    .search-header-4 button.button {
+        background-color: transparent !important;
+        color: #202020;
+        font-size: 18px;
+        letter-spacing: 2px;
+        line-height: 39px;
+        padding: 0 15px !important;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 50px !important;
+
+    }
+
+    .search-header-4 button.button:hover {
+        background-color: transparent;
+        color: #202020 !important;
+    }
+
+    /* Copyright Text */
+    .header-4-copyright-text {
+        display: block;
+        margin-top: 60px;
+    }
+    .header-4-copyright-text {
+        text-align: center;
+        color: #c1c1c1;
+        letter-spacing: 1px;
+    }
+
+    /* Social Icons */
+    .header-4-socials {
+        display: block;
+        margin-top: 50px;
+    }
+    .header-4-socials a {
+        color: #8e8e8e !important;
+    }
+}
+@media only screen and (max-width: 79.9em) {
+    .site-header {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .site-logo {
+        display: inline-block;
+    }
+}

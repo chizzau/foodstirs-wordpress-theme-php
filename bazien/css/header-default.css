@@ -1,0 +1,18 @@
+.woocommerce-page .site-header {
+	border-bottom: 1px solid #ebebeb;
+}
+.transparent_header .site-header {
+	border-bottom: none;
+}
+.site-logo {
+	display: inline-block;
+	float: left;
+}
+
+@media only screen and (min-width: 80em) {
+	
+	.site-logo {
+		margin-right:50px;
+	}
+
+}

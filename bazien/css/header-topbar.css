@@ -1,0 +1,36 @@
+#site-top-bar {
+    display: none;
+	background:#FFFFFF;
+	color:#333;
+	font-size: 10px;
+	overflow:hidden;
+	text-transform: uppercase;
+	line-height: 45px;
+	max-height: 100px;
+	transition: max-height .5s ease;
+}
+
+#site-top-bar:hover {
+	overflow:visible;
+}
+
+#site-top-bar.hidden {
+	max-height:0;
+}
+
+#site-top-bar ul,
+#site-top-bar ol,
+#site-top-bar dl
+{
+	font-size: 1em;
+	line-height:1.8em;
+}
+#site-top-bar ul li ul a {
+	font-size: 10px !important;
+}
+#site-navigation-top-bar {
+	float: right;
+}
+ul li.logout-link a{
+    padding-right: 0 !important;
+}

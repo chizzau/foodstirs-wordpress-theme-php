@@ -1,0 +1,89 @@
+
+/* Main Navigation */
+.main-navigation-3 {
+    background: #fff;
+    padding: 15px 0;
+}
+.transparent_header .main-navigation-3 {
+    background: none;
+}
+.main-navigation-3 .mega-menu > li.menu-item:first-child {
+    margin-left: 0;
+}
+.main-navigation-3 .mega-menu .popup > .inner {
+    margin-top: 17px;
+}
+
+/* Mini Cart */
+.header-3-mini-cart #mini-cart {
+    position: absolute;
+    top: 0;
+    right:0;
+    color:#202020;
+    z-index: 999;
+}
+.header-3-mini-cart .cart-head {
+    position: relative;
+    border:#202020 solid 1px;
+    padding: 0 25px;
+}
+.header-3-mini-cart .cart-head span.title {
+    line-height: 39px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-right: 3px;
+}
+.header-3-mini-cart #mini-cart .cart-items {
+    top: -10px;
+    right: 10px;
+}
+.header-3-mini-cart .widget_shopping_cart_content {
+    margin-top: 14px;
+}
+
+/* Search Box */
+.search-header-3 {
+    position: absolute;
+    display: inline-block;
+    top: 1px;
+    right:15px;
+}
+.search-header-3 .widget {
+    margin-bottom: 0;
+}
+.search-header-3 .search-field,
+.search-header-3 .search-field:hover,
+.search-header-3 .search-field:focus {
+    opacity: 0;
+    float: left;
+    width: 290px;
+    color: #c2c2c2;
+    font-size: 10px;
+    letter-spacing: 2.5px;
+    line-height: 43px;
+    padding: 0 15px;
+    text-transform: uppercase;
+    box-shadow: none;
+}
+.search-header-3 button.button {
+    background-color:transparent !important;
+    color: #202020;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 39px;
+    padding: 0 15px !important;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50px!important;
+
+}
+.search-header-3 button.button:hover {
+    background-color: transparent;
+    color: #202020 !important;
+}
+.search-header-3:hover .search-field,
+.search-header-3:hover .search-field:hover,
+.search-header-3:hover .search-field:focus {
+    opacity: 1;
+}

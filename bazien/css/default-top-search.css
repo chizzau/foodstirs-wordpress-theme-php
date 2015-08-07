@@ -1,0 +1,119 @@
+/* Overlay style */
+.overlay-top-search {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(255,255,255,0.9);
+	z-index: 9999;
+}
+
+/* Overlay closing cross */
+.overlay-top-search .overlay-close-search {
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	overflow: hidden;
+	border: none;
+	background: url(../images/cross.png) no-repeat center center;
+	text-indent: 200%;
+	color: transparent;
+	outline: none;
+	z-index: 100;
+}
+
+/* Menu style */
+.overlay-top-search .site-search-inner {
+	text-align: center;
+	position: relative;
+	top: 50%;
+	height: 60%;
+	font-size: 54px;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.overlay-top-search .site-search-inner form {
+	margin: 0px auto;
+	width: 50%;
+}
+.overlay-top-search .site-search-inner input.search-field, .overlay-top-search .site-search-inner input.search-field:focus {
+	background: none;
+	border: 0;
+	color: #eeb013 !important;
+	font-size: 32px;
+	font-weight: normal;
+	padding: 15px 10px;
+	height: 3.5rem;
+	border-bottom: #eeb013 solid 2px;
+	box-shadow: none;
+} 
+.overlay-top-search .site-search-inner input[type="submit"],  .overlay-top-search .site-search-inner button.button{
+	display: none;
+}
+.overlay-top-search .site-search-inner input.search-field::-webkit-input-placeholder {
+   color: #eeb013;
+}
+
+.overlay-top-search .site-search-inner input.search-field:-moz-placeholder { /* Firefox 18- */
+   color: #eeb013;  
+}
+
+.overlay-top-search .site-search-inner input.search-field::-moz-placeholder {  /* Firefox 19+ */
+   color: #eeb013;  
+}
+
+.overlay-top-search .site-search-inner input.search-field:-ms-input-placeholder {  
+   color: #eeb013;  
+}
+
+/* Effects */
+.overlay-hugeinc {
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+	transition: opacity 0.5s, visibility 0s 0.5s;
+}
+
+.overlay-hugeinc.open {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+}
+
+.overlay-hugeinc nav {
+	-webkit-perspective: 1200px;
+	perspective: 1200px;
+}
+
+.overlay-hugeinc nav ul {
+	opacity: 0.4;
+	-webkit-transform: translateY(-25%) rotateX(35deg);
+	transform: translateY(-25%) rotateX(35deg);
+	-webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+	transition: transform 0.5s, opacity 0.5s;
+}
+
+.overlay-hugeinc.open nav ul {
+	opacity: 1;
+	-webkit-transform: rotateX(0deg);
+	transform: rotateX(0deg);
+}
+
+.overlay-hugeinc.close nav ul {
+	-webkit-transform: translateY(25%) rotateX(-35deg);
+	transform: translateY(25%) rotateX(-35deg);
+}
+
+@media screen and (max-height: 30.5em) {
+	.overlay nav {
+		height: 70%;
+		font-size: 34px;
+	}
+	.overlay ul li {
+		min-height: 34px;
+	}
+}

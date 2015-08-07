@@ -1,0 +1,459 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: bazien v1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-11-05 17:57+0200\n"
+"PO-Revision-Date: 2015-07-03 08:47+0700\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en_US\n"
+"X-Generator: Poedit 1.8.2\n"
+
+#: ../404.php:14
+msgid "Oops 404 again! That page can't be found."
+msgstr ""
+
+# @ bazien
+#: ../404.php:18
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: ../archive.php:27
+msgid "Category Archives"
+msgstr ""
+
+#: ../archive.php:33
+msgid "Tag Archives"
+msgstr ""
+
+#: ../archive.php:41
+msgid "Author"
+msgstr ""
+
+#: ../archive.php:48
+msgid "Day Archives"
+msgstr ""
+
+#: ../archive.php:54
+msgid "Month Archives"
+msgstr ""
+
+#: ../archive.php:60
+msgid "Year Archives"
+msgstr ""
+
+# @ bazien
+#: ../archive.php:65 ../sidebar.php:13
+msgid "Archives"
+msgstr ""
+
+# @ bazien
+#: ../archive.php:115 ../archive.php:119 ../archive.php:122 ../index.php:127
+#: ../index.php:131 ../index.php:134
+msgid "Continue Reading"
+msgstr ""
+
+#: ../comments.php:25
+#, php-format
+msgid "One reply on “%2$s“"
+msgid_plural "%1$s replies on “%2$s“"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ bazien
+#: ../comments.php:32 ../comments.php:52
+msgid "Comment navigation"
+msgstr ""
+
+# @ bazien
+#: ../comments.php:33 ../comments.php:53
+msgid "&larr; Older Comments"
+msgstr ""
+
+# @ bazien
+#: ../comments.php:34 ../comments.php:54
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+# @ bazien
+#: ../comments.php:64
+msgid "Comments are closed."
+msgstr ""
+
+# @ bazien
+#: ../comments.php:76
+msgid "Leave a Reply"
+msgstr ""
+
+# @ bazien
+# @ woocommerce
+#: ../comments.php:80
+msgid "Name"
+msgstr ""
+
+# @ bazien
+#: ../comments.php:82
+msgid "Email Address"
+msgstr ""
+
+# @ bazien
+#: ../comments.php:84
+msgid "Website"
+msgstr ""
+
+# @ bazien
+#: ../comments.php:90
+msgid "Message"
+msgstr ""
+
+# @ bazien
+#: ../content-page.php:7 ../content.php:65
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+# @ bazien
+#: ../content-page.php:8 ../content.php:66
+msgid "Pages:"
+msgstr ""
+
+# @ bazien
+#: ../footer.php:217 ../header-topbar.php:107
+msgid "Logout"
+msgstr ""
+
+# @ bazien
+#: ../functions.php:224
+msgid "Top Bar Navigation"
+msgstr ""
+
+# @ bazien
+#: ../functions.php:225
+msgid "Main Navigation"
+msgstr ""
+
+# @ bazien
+#: ../functions.php:226
+msgid "Footer Navigation"
+msgstr ""
+
+# @ bazien
+#: ../functions.php:231
+msgid "Secondary Navigation (Off-Canvas)"
+msgstr ""
+
+#: ../functions.php:237
+msgid "Centered Header - Left Navigation"
+msgstr ""
+
+#: ../functions.php:238
+msgid "Centered Header - Right Navigation"
+msgstr ""
+
+# @ bazien
+#: ../functions.php:424
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+# @ bazien
+#: ../functions.php:463
+msgid "Sidebar"
+msgstr ""
+
+# @ bazien
+#: ../functions.php:473
+msgid "Footer Widget Area"
+msgstr ""
+
+# @ bazien
+#: ../functions.php:483
+msgid "Shop Sidebar"
+msgstr ""
+
+# @ bazien
+#: ../header-centered-2menus.php:171 ../header-centered-menu-under.php:148
+#: ../header-default.php:135
+msgid "menu"
+msgstr ""
+
+# @ bazien
+#: ../image.php:27
+#, php-format
+msgid ""
+"Published <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\">%2$s</time></span>. Size: <i class=\"fa fa-picture-o\"></i> <a href="
+"\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <i class="
+"\"fa fa-folder-open\"></i> <a href=\"%6$s\" title=\"Return to %7$s\" rel="
+"\"gallery\">%7$s</a>"
+msgstr ""
+
+#: ../image.php:42
+msgid "Previous"
+msgstr ""
+
+#: ../image.php:46
+msgid "Next"
+msgstr ""
+
+#: ../inc/custom-posts/portfolio.php:8 ../inc/custom-posts/portfolio.php:20
+msgid "Portfolio"
+msgstr ""
+
+#: ../inc/custom-posts/portfolio.php:9
+msgid "Portfolio Item"
+msgstr ""
+
+#: ../inc/custom-posts/portfolio.php:10
+msgid "Add New"
+msgstr ""
+
+# @ bazien
+#: ../inc/custom-posts/portfolio.php:11
+msgid "Add New Portfolio item"
+msgstr ""
+
+# @ bazien
+#: ../inc/custom-posts/portfolio.php:12
+msgid "Edit Portfolio item"
+msgstr ""
+
+# @ bazien
+#: ../inc/custom-posts/portfolio.php:13
+msgid "New Portfolio item"
+msgstr ""
+
+# @ bazien
+#: ../inc/custom-posts/portfolio.php:14
+msgid "All Portfolio items"
+msgstr ""
+
+# @ bazien
+#: ../inc/custom-posts/portfolio.php:15
+msgid "View Portfolio item"
+msgstr ""
+
+# @ bazien
+#: ../inc/custom-posts/portfolio.php:16
+msgid "Search Portfolio item"
+msgstr ""
+
+# @ bazien
+#: ../inc/custom-posts/portfolio.php:17
+msgid "No Portfolio item found"
+msgstr ""
+
+# @ bazien
+#: ../inc/custom-posts/portfolio.php:18
+msgid "No Portfolio item found in Trash"
+msgstr ""
+
+# @ bazien
+#: ../inc/custom-posts/portfolio.php:52 ../inc/custom-posts/portfolio.php:65
+msgid "Portfolio Categories"
+msgstr ""
+
+# @ bazien
+#: ../inc/custom-posts/portfolio.php:53
+msgid "Portfolio Category"
+msgstr ""
+
+# @ bazien
+#: ../inc/custom-posts/portfolio.php:54
+msgid "Search Portfolio Categories"
+msgstr ""
+
+# @ bazien
+#: ../inc/custom-posts/portfolio.php:55
+msgid "Popular Portfolio Categories"
+msgstr ""
+
+# @ bazien
+#: ../inc/custom-posts/portfolio.php:56
+msgid "All Portfolio Categories"
+msgstr ""
+
+# @ bazien
+#: ../inc/custom-posts/portfolio.php:57
+msgid "Edit Portfolio Category"
+msgstr ""
+
+# @ bazien
+#: ../inc/custom-posts/portfolio.php:58
+msgid "Update Portfolio Category"
+msgstr ""
+
+# @ bazien
+#: ../inc/custom-posts/portfolio.php:59
+msgid "Add New Portfolio Category"
+msgstr ""
+
+# @ bazien
+#: ../inc/custom-posts/portfolio.php:60
+msgid "New Portfolio Category Name"
+msgstr ""
+
+# @ bazien
+#: ../inc/custom-posts/portfolio.php:61
+msgid "Separate Portfolio Categories with commas"
+msgstr ""
+
+# @ bazien
+#: ../inc/custom-posts/portfolio.php:62
+msgid "Add or remove Portfolio Categories"
+msgstr ""
+
+# @ bazien
+#: ../inc/custom-posts/portfolio.php:63
+msgid "Choose from the most used Portfolio Categories"
+msgstr ""
+
+# @ bazien
+#: ../inc/custom-posts/portfolio.php:64
+msgid "No Portfolio Category found."
+msgstr ""
+
+# @ bazien
+#: ../inc/shortcodes/google-map.php:12
+msgid "Get Directions"
+msgstr ""
+
+# @ bazien
+#: ../inc/shortcodes/portfolio.php:79
+msgid "Show all"
+msgstr ""
+
+# @ bazien
+#: ../inc/templates/post-meta.php:8 ../inc/templates/post-meta.php:36
+msgid "Sticky"
+msgstr ""
+
+# @ bazien
+#: ../inc/templates/post-meta.php:12 ../inc/templates/post-meta.php:40
+msgid " by "
+msgstr ""
+
+# @ bazien
+#: ../inc/templates/post-meta.php:14 ../inc/templates/post-meta.php:42
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+# @ bazien
+#: ../inc/templates/post-meta.php:25
+msgid " in "
+msgstr ""
+
+# @ bazien
+#: ../inc/templates/post-meta.php:68 ../inc/templates/post-meta.php:89
+#, php-format
+msgctxt "1: post format name. 2: date"
+msgid "%1$s on %2$s"
+msgstr ""
+
+#: ../inc/templates/post-meta.php:72
+msgid " on "
+msgstr ""
+
+# @ bazien
+#: ../inc/templates/post-meta.php:74 ../inc/templates/post-meta.php:95
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+# @ bazien
+#: ../inc/templates/template-tags.php:74
+msgid "Previous Reading"
+msgstr ""
+
+# @ bazien
+#: ../inc/templates/template-tags.php:78
+msgid "Next Reading"
+msgstr ""
+
+#: ../inc/templates/template-tags.php:88
+msgid "Older posts"
+msgstr ""
+
+#: ../inc/templates/template-tags.php:94
+msgid "Newer posts"
+msgstr ""
+
+# @ bazien
+#: ../inc/templates/template-tags.php:155
+msgid "Pingback:"
+msgstr ""
+
+# @ bazien
+# @ woocommerce
+#: ../inc/templates/template-tags.php:155
+#: ../inc/templates/template-tags.php:195
+msgid "Edit"
+msgstr ""
+
+# @ bazien
+#: ../inc/templates/template-tags.php:170
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+# @ bazien
+# @ woocommerce
+#: ../inc/templates/template-tags.php:173
+#, php-format
+msgid "%s"
+msgstr ""
+
+# @ bazien
+#: ../inc/templates/template-tags.php:178
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+# @ bazien
+#: ../inc/widgets/social-media.php:14
+msgid "bazien Social Media Profiles"
+msgstr ""
+
+# @ bazien
+#: ../inc/widgets/social-media.php:15
+msgid "A widget that displays Social Media Profiles"
+msgstr ""
+
+# @ bazien
+#: ../inc/widgets/social-media.php:95
+msgid "Get Connected"
+msgstr ""
+
+# @ bazien
+#: ../inc/widgets/social-media.php:100
+msgid "Title:"
+msgstr ""
+
+# @ bazien
+#: ../search.php:22
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+# @ bazien
+#: ../searchform.php:2
+msgid "Search for:"
+msgstr ""
+
+# @ bazien
+#: ../searchform.php:3
+msgid "Search &hellip;"
+msgstr ""
+
+# @ bazien
+#: ../searchform.php:4
+msgid "Search"
+msgstr ""
+
+# @ bazien
+#: ../sidebar.php:20
+msgid "Meta"
+msgstr ""

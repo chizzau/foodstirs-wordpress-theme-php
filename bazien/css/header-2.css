@@ -1,0 +1,107 @@
+/* Search Box */
+.header_2 .default-navigation {
+    position: absolute;
+    top: 0;
+    left: 30%;
+    z-index: 999;
+}
+.header_2 .site-search-inner {
+    display: inline-block;
+}
+.header_2 .site-search-inner .widget {
+    margin-bottom: 0;
+}
+.header_2 .site-search-inner .search-field,
+.header_2 .site-search-inner .search-field:hover,
+.header_2 .site-search-inner .search-field:focus {
+    float: left;
+    width: 390px;
+    color: #c2c2c2;
+    font-size: 10px;
+    letter-spacing: 2.5px;
+    line-height: 43px;
+    padding: 0 15px;
+    text-transform: uppercase;
+    box-shadow: none;
+}
+.header_2 .site-search-inner input[type="submit"] {
+    background-color:transparent !important;
+    border-left: 1px solid #ebebeb;
+    color: #202020;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 39px;
+    padding: 0 15px !important;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100px;
+}
+.header_2 .site-search-inner input[type="submit"]:hover {
+    background-color: transparent;
+    color: #202020 !important;
+}
+
+/* Promotion Box */
+.promotion-block {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: right;
+}
+.promotion-block h2 {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 16px;
+    margin: 0 0 10px;
+}
+.promotion-block p {
+    color: #333;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+}
+
+/* Main Navigation */
+.main-navigation-2 {
+    background: #fff;
+    padding: 15px 0;
+}
+.transparent_header .main-navigation-2 {
+    background: none;
+}
+.main-navigation-2 .mega-menu > li.menu-item:first-child {
+    margin-left: 0;
+}
+.main-navigation-2 .mega-menu .popup > .inner {
+    margin-top: 17px;
+}
+
+/* Mini Cart */
+.main-navigation-2 #mini-cart {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    color:#202020;
+}
+.main-navigation-2 .cart-head {
+    position: relative;
+    border:#202020 solid 1px;
+    padding: 0 25px;
+}
+.main-navigation-2 .cart-head span.title {
+    line-height: 39px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-right: 3px;
+}
+.main-navigation-2 #mini-cart .cart-items {
+    top: -10px;
+    right: 10px;
+}
+.main-navigation-2 .widget_shopping_cart_content {
+    margin-top: 14px;
+}

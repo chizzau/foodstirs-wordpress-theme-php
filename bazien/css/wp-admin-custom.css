@@ -1,0 +1,9 @@
+.redux-container-ace_editor .ace-wrapper {
+    width: 800px;
+}
+
+/* Revolution Slider */
+
+.rs-update-notice-wrap {
+	display:none !important;
+}
